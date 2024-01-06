@@ -12,6 +12,7 @@ import {
 export default function Faq() {
   const features = [
       { name: "Debug", description: "Admins can be detected. Players are able to be detected more than once. Do NOT use in production", value: true },
+      { name: "Heartbeat", description: "Advanced heartbeat system that keeps cheaters from stopping the anticheat", value: true },
       { name: "txAdmin Authentication", description: "Enable support for admin checking via txAdmin", value: true },
       { name: "Custom Screenshot Module", description: "Change this if you renamed your sc-basic resource (Make sure it matches).", value: true },
       { name: "Ban ID Format", description: "1 = ABCD-1234 (DEFAULT) | 2 = #1234 (NEW)", value: true },
@@ -63,7 +64,7 @@ export default function Faq() {
       { name: "Freecam Distance", description: "How far the camera has to be from player to be detected as freecam.", value: true },
       { name: "Vehicle Spawn Speed Limit", description: "Stops spawning vehicles with large speeds (eg. Ram Player option in mod menus)", value: true },
       { name: "Teleport Distance", description: "How far player needs to be from his last location in short time to be detected", value: true },
-      { name: "Anti God Mode", description: "Detects god mode", value: false },
+      { name: "Anti God Mode", description: "Detects god mode", value: true },
       { name: "Anti No-Clip", description: "Detects players noclipping and/or flying", value: true },
       { name: "Anti Rapid Fire", description: "Detects abnormally fast shooting", value: true },
       { name: "Anti Taze", description: "Prevents cheaters from tazing other players", value: true },
