@@ -85,8 +85,8 @@ export default function Faq() {
           </AccordionItem>
           <AccordionItem key="2" aria-label="help" title="I have an issue with WX AntiCheat!">
             If you have any issues with WX AntiCheat, don't worry, you can always contact our
-            support team through our <a href="https://discord.gg/kU3CV2qn2x" style={{color:"#9B7EDE"}}>Discord Server</a>. We'll gladly
-            help you and hopefully resolve your issue! You can also use our <a href="https://docs.0wx.space/anticheat/troubleshooting" style={{color:"#9B7EDE"}}>Troubleshooting section</a> on our docs
+            support team through our <a href="https://dsc.gg/wxscripts" style={{ color: "#9B7EDE" }}>Discord Server</a>. We'll gladly
+            help you and hopefully resolve your issue! You can also use our <a href="https://docs.0wx.space/anticheat/troubleshooting" style={{ color: "#9B7EDE" }}>Troubleshooting section</a> on our docs
             website!
           </AccordionItem>
           <AccordionItem key="3" aria-label="lifetime" title="Why do you offer only the lifetime version?">
@@ -96,34 +96,34 @@ export default function Faq() {
           <AccordionItem key="4" aria-label="refund" title="Is it possible to get a refund?">
             We offer refunds, but only in specific conditions, for example, when you purchase the anticheat and some of it's features aren't working as expected.
             However, if you purchase the Open Source version, we <b>DO NOT</b> offer refunds. The same thing applies for user errors, like badly configured config file.
-            If you're allegible for a refund, please open a ticket on our <a href="https://discord.gg/kU3CV2qn2x" style={{color:"#9B7EDE"}}>Discord Server</a>. Attempting to
+            If you're allegible for a refund, please open a ticket on our <a href="https://dsc.gg/wxscripts" style={{ color: "#9B7EDE" }}>Discord Server</a>. Attempting to
             chargeback or opening a PayPal dispute will automatically put you on the blacklist from our store!
           </AccordionItem>
           <AccordionItem key="5" aria-label="docs" title="Where can I find the documentation?">
-            You can find the official documentation for WX AntiCheat (and other WX Scripts) on <a href="https://docs.0wx.space" style={{color:"#9B7EDE"}}>docs.0wx.space</a>
+            You can find the official documentation for WX AntiCheat (and other WX Scripts) on <a href="https://docs.0wx.space" style={{ color: "#9B7EDE" }}>docs.0wx.space</a>
           </AccordionItem>
           <AccordionItem key="6" aria-label="updates" title="How often does WX AntiCheat receive updates?">
-            We attempt to update WX AntiCheat as frequently as possible. The AntiCheat receives 3 types of updates: <br/><br/>
+            We attempt to update WX AntiCheat as frequently as possible. The AntiCheat receives 3 types of updates: <br /><br />
             <Table removeWrapper hideHeader aria-label="Example static collection table">
-      <TableHeader>
-        <TableColumn>Update Type</TableColumn>
-        <TableColumn>Desc</TableColumn>
-      </TableHeader>
-      <TableBody>
-        <TableRow key="1">
-          <TableCell>Regular Update</TableCell>
-          <TableCell>This is a regular update that includes the most new stuff, like new detections and bug fixes</TableCell>
-        </TableRow>
-        <TableRow key="2">
-          <TableCell>Small Update</TableCell>
-          <TableCell>This type of updates include only small changes, mostly rewritten functions and/or detections</TableCell>
-        </TableRow>
-        <TableRow key="3">
-          <TableCell>Quick Fix</TableCell>
-          <TableCell>This is something like Small Update, but it includes only bug fixes which were found in the latest Regular or Small update.</TableCell>
-        </TableRow>
-      </TableBody>
-    </Table>
+              <TableHeader>
+                <TableColumn>Update Type</TableColumn>
+                <TableColumn>Desc</TableColumn>
+              </TableHeader>
+              <TableBody>
+                <TableRow key="1">
+                  <TableCell>Regular Update</TableCell>
+                  <TableCell>This is a regular update that includes the most new stuff, like new detections and bug fixes</TableCell>
+                </TableRow>
+                <TableRow key="2">
+                  <TableCell>Small Update</TableCell>
+                  <TableCell>This type of updates include only small changes, mostly rewritten functions and/or detections</TableCell>
+                </TableRow>
+                <TableRow key="3">
+                  <TableCell>Quick Fix</TableCell>
+                  <TableCell>This is something like Small Update, but it includes only bug fixes which were found in the latest Regular or Small update.</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </AccordionItem>
         </Accordion>
       </motion.div>

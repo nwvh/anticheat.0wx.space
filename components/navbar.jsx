@@ -34,22 +34,22 @@ export default function NavBar() {
       <NavbarContent className="hidden sm:flex gap-5" justify="center">
         <NavbarBrand>
           <span className="font-bold text-2xl flex gap-3 justify-left items-left">
-          <FaShieldAlt className="my-1"/> WX AntiCheat
+            <FaShieldAlt className="my-1" /> WX AntiCheat
           </span>
         </NavbarBrand>
         <NavbarItem>
           <Button as={Link} href="https://docs.0wx.space" variant="light">
-          <FaBookBookmark /> Documentation
+            <FaBookBookmark /> Documentation
           </Button>
         </NavbarItem>
         <NavbarItem>
           <Button as={Link} href="#pricing" variant="light">
-          <FaShoppingCart /> Purchase
+            <FaShoppingCart /> Purchase
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} href="https://discord.gg/kU3CV2qn2x" variant="light">
-          <FaDiscord />Support Discord
+          <Button as={Link} href="https://dsc.gg/wxscripts" variant="light">
+            <FaDiscord />Support Discord
           </Button>
         </NavbarItem>
       </NavbarContent>
